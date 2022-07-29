@@ -9,10 +9,11 @@ const a=()=>{
     return obj.json();
     }).then((mess)=>{
 
-        document.getElementById('tit').innerHTML=mess.Title;
-        document.getElementById('date').innerHTML=mess.Released
+        // document.getElementById('s1').innerHTML=mess.Title;
+        document.getElementById('s1').innerHTML=mess.Released
     }).catch((err)=>{
-        document.getElementById('err').innerHTML="error";
+        // document.getElementById('err').innerHTML="error";
+        console.log(err);
     })
 }
 

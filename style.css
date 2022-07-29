@@ -1,0 +1,42 @@
+
+.container{
+
+    margin-top: 15%;
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+
+/* Frame 1 */
+.box{
+position: relative;
+width: 492px;
+height: 319px;
+background: #81B8EC;
+border-radius: 10px;
+
+}
+
+/* Frame 2 */
+
+.ip{
+position: absolute;
+width: 276px;
+height: 39px;
+left: 72px;
+top: 32px;
+
+background: #FFFFFF;
+border-radius: 20px;
+}
+
+.bt{
+position: absolute;
+width: 67px;
+height: 29px;
+left: 367px;
+top: 42px;
+
+background: #F3A9A9;
+border-radius: 20px;
+}

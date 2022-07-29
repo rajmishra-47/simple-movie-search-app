@@ -9,8 +9,10 @@ const a=()=>{
     return obj.json();
     }).then((mess)=>{
 
-        // document.getElementById('s1').innerHTML=mess.Title;
-        document.getElementById('s1').innerHTML=mess.Released
+        document.getElementById('t1').innerHTML=mess.Title;
+        document.getElementById('t2').innerHTML=mess.Year;
+        document.getElementById('t3').innerHTML=mess.Rated;
+        document.getElementById('t4').innerHTML=mess.Director;
     }).catch((err)=>{
         // document.getElementById('err').innerHTML="error";
         console.log(err);

@@ -10,11 +10,14 @@ const a=()=>{
     }).then((mess)=>{
 
         document.getElementById('t1').innerHTML=mess.Title;
-        document.getElementById('t2').innerHTML=mess.Year;
+        document.getElementById('t2').innerHTML=mess.Released;
         document.getElementById('t3').innerHTML=mess.Rated;
         document.getElementById('t4').innerHTML=mess.Director;
+        const img = document.querySelector("img"); 
+img.src = `${mess.Poster}`;        
+
     }).catch((err)=>{
-        // document.getElementById('err').innerHTML="error";
+        document.getElementById('err').innerHTML="error";
         console.log(err);
     })
 }

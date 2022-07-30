@@ -67,3 +67,19 @@ border-radius: 20px;
 {
     margin-left:2.5em;
 }
+
+.box3{
+    
+    /* border: 2px solid black; */
+    border-radius: 10%;
+    height: 400px;
+    width: 250px;
+    background-color: rgba(248, 247, 216, 0.2);
+    margin-left:15%;
+    /* margin-top: 10%; */
+    margin-bottom: 40%;
+}
+
+#img{
+    border-radius: 10%;
+}

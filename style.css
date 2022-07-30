@@ -3,6 +3,10 @@ body{
     font-family: 'Uchen', serif;
     /* color: #FFFFFF; */
     background-image: url('/img/netflix-1536x864.jpg');
+    color: rgb(4, 4, 4);
+
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .container{
 
@@ -33,6 +37,8 @@ top: 32px;
 opacity: 2.5;
 background: #FFFFFF;
 border-radius: 20px;
+
+font-size: larger;
 }
 
 .bt{
@@ -66,6 +72,7 @@ border-radius: 20px;
 .pla
 {
     margin-left:2.5em;
+    padding: 0;
 }
 
 .box3{
@@ -82,4 +89,19 @@ border-radius: 20px;
 
 #img{
     border-radius: 10%;
+}
+
+.dire{
+    float: right;
+    margin-right: 10px;
+}
+
+.desc{
+    float: right;
+    margin-right: 10px;
+}
+
+.t2
+{
+    height: 30px;
 }
